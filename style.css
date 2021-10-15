@@ -30,10 +30,11 @@ body {
 }
 
 #tutorialText{
-    text-align: left;
+    /*text-align: left;*/
+    text-align: center;
     font-size: 22.5px;
     padding-top: 0.1;
-    font-family: 'Merriweather', serif;
+    font-family: Verdana;
 }
 
 
@@ -66,11 +67,18 @@ body {
 }
 
 .navButton{
-    font-size: 24px;
-    background-color: white;
-    color:#4d97ff;
+    font-size: 30px;
     font-family: 'Merriweather', serif;
-    border-width: 5px;
-    border-color: seagreen;
-    border-style: solid;
+    border: 1px solid;
+    border-color: blur(10px);
+    border-radius: 3px;
+    color: #721e75;
+    font-family: Verdana, sans-serif, fantasy;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.1s;
 }
+.navButton:hover{background-color: black;}
+.navButton:active{background-color: #212121;}
+.navButton:hover,.navButton:active{color: white;}
+.large{margin: 20px;}
