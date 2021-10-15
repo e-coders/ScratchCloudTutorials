@@ -22,6 +22,7 @@ tutorialBodyArray=[
 tutorialPageCounter = 1;
 tutorialArrayCounter = 0;
 tutorialNo = 1;
+// Don't Count 404 in totalPages.
 totalPages = 3;
 
 //variables over
